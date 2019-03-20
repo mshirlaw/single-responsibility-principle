@@ -1,4 +1,4 @@
-# Single Responsibility Principle (SRP)
+## The Single Responsibility Principle (SRP)
 
 ---
 
