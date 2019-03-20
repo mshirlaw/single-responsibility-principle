@@ -9,7 +9,7 @@ The concept that every module, class, or function should have responsibility ove
 --- 
 
 > A class should have only one reason to change
-> Robert C. Martin - Clean Code
+- Robert C. Martin [Clean Code]
 
 ---
 
