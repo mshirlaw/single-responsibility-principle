@@ -28,20 +28,16 @@ A class should have only one reason to change
 
 ---
 
-## Parameters give a clue
-
 ```perl
-=head3 PARAMETERS
-	$details : HashRef - Hash of function parameters
-		$existing_hash: HashRef - Existing data structure that we are modifying
-		[$return_array] : Bool - If truthy return array, otherwise return HashRef
-		[$update_existing] : Bool - If truthy update existing values in the database
-=cut
+$details : HashRef - Hash of function parameters
+	$existing_hash: HashRef - Existing data structure that we are modifying
+	[$return_array] : Bool - If truthy return array, otherwise return HashRef
+	[$update_existing] : Bool - If truthy update existing values in the database
 ```
 
 ---
 
-# Parameters give a clue
+## Indicators
 
 * accepts many arguments
 * accepts a complicated data structure
