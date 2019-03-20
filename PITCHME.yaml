@@ -24,12 +24,6 @@ theme-override: assets/css/PITCHME.css
 layout : center
 
 #
-# Footnote Setting
-# Doc: https://gitpitch.com/docs/settings/footnote
-#
-# footnote : "Matt Shirlaw"
-
-#
 # Published Setting
 # Doc: https://gitpitch.com/docs/settings/published
 #
