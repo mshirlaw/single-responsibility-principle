@@ -8,7 +8,9 @@ Every module, class, or function should have responsibility over a single part o
 
 --- 
 
-> A class should have only one reason to change
+A class should have only one reason to change
+
+\- Robert C. Martin, Clean Code.
 
 ---
 
@@ -17,21 +19,21 @@ Every module, class, or function should have responsibility over a single part o
 * easier to read
 * easier to maintain
 * fewer unintended side effects & hopefully fewer bugs
-* fewer dependencies which need to be updated when code changes
+* fewer dependencies to update when code changes
 * less chance of "coupling" among software components
 
 ---
 
-# How do we know if a function is doing more than one thing?
+## How do we know if a function is doing more than one thing?
 
----?color=#1E1F21&title=Parameters As Clues
+---?color=#1E1F21&title=Parameters Give us a Clue
 
 ```perl
 =head3 PARAMETERS
 	$details : HashRef - Hash of function parameters
 		$existing_hash: HashRef - Existing data structure that we are modifying
-		[$should_return_as_array] : Bool - If truthy return an array, otherwise return HashRef
-		[$should_update_existing] : Bool - If truthy update existing values in the database
+		[$return_array] : Bool - If truthy return array, otherwise return HashRef
+		[$update_existing] : Bool - If truthy update existing values in the database
 =cut
 ```
 
@@ -44,16 +46,19 @@ Every module, class, or function should have responsibility over a single part o
 
 ---
 
-## What is "highly coupled" code?
-
-* the degree of interdependence between software modules
-* not always at the module level but could also be at the function level
+## Highly coupled code?
 
 > if in order to use module A a developer must also be aware of the implementation of module B then module A & B are said to be highly (or tightly) coupled
 
 ---
 
-## Disadvantages of highly coupled code 
+* the degree of interdependence between software modules
+* not always at the module level
+* may also be at the function level
+
+---
+
+## Disadvantages 
 
 * changes in one module usually require changes in other modules
 * more effort and time due to the increased inter-module dependency
