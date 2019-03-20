@@ -26,7 +26,9 @@ A class should have only one reason to change
 
 ## How do we know if a function is doing more than one thing?
 
----?title=Parameters Give us a Clue
+---
+
+## Parameters give a clue
 
 ```perl
 =head3 PARAMETERS
@@ -39,22 +41,24 @@ A class should have only one reason to change
 
 ---
 
-* function accepts many arguments
-* function accepts complicated data structure
-* flag(s) which determine how the function works
-* function relies on if / else logic to control the flow of operation
+# Parameters give a clue
+
+* accepts many arguments
+* accepts a complicated data structure
+* flag(s) determine how the function works
+* relies on if / else logic to control the flow of operation
 
 ---
 
 ## Highly coupled code?
 
-If in order to use module A a developer must also be aware of the implementation of module B then module A & B are said to be highly (or tightly) coupled
+If in order to use module A, the developer must also be aware of the implementation of module B, then module A & B are said to be highly (or tightly) coupled
 
 ---
 
-* the degree of interdependence between software modules
 * not always at the module level
 * may also be at the function level
+* the degree of interdependence between software modules
 
 ---
 
