@@ -28,12 +28,12 @@ How do we know if a function is doing more than one thing?
 ---
 
 ```perl
-	=head3 PARAMETERS
-		$details : HashRef - Hash of function paraemters
-			$existing_hash: HashRef - The existing data structure that we are modifying
-			[$should_return_as_array] : Bool - If truthy will return an array, otherwise will return a HashRef
-			[$should_update_existing] : Bool - A flag to indicate whether we should update existing values in the database
-	=cut
+=head3 PARAMETERS
+	$details : HashRef - Hash of function parameters
+		$existing_hash: HashRef - Existing data structure that we are modifying
+		[$should_return_as_array] : Bool - If truthy return an array, otherwise return HashRef
+		[$should_update_existing] : Bool - If truthy update existing values in the database
+=cut
 ```
 
 ---

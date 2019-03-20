@@ -1,7 +1,3 @@
-##########################
-# The original subroutine
-##########################
-
 sub apply_company_billing_affiliations
 {
 	my ($context, $company_hash) = @_;
