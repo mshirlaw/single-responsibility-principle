@@ -70,9 +70,5 @@ If in order to use module A, the developer must also be aware of the implementat
 
 ---?code=src/original.pm&lang=perl&color=#1E1F21&title=Original
 
----
-
-@code[perl zoom-07](src/original.pm)
-
 ---?code=src/refactor.pm&lang=perl&color=#1E1F21&title=Refactored
 
