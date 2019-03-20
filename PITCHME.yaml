@@ -27,7 +27,7 @@ layout : center
 # Footnote Setting
 # Doc: https://gitpitch.com/docs/settings/footnote
 #
-footnote : "Matt Shirlaw"
+# footnote : "Matt Shirlaw"
 
 #
 # Published Setting
