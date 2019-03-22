@@ -72,3 +72,9 @@ If in order to use module A, the developer must also be aware of the implementat
 
 ---?code=src/refactor.pm&lang=perl&color=#1E1F21&title=Refactored
 
+---
+
+## Further Reading
+
+* [Design Patterns](https://www.goodreads.com/book/show/85009.Design_Patterns)
+* [Simple vs Easy](https://www.youtube.com/watch?v=rI8tNMsozo0)
